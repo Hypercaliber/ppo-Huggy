@@ -14,22 +14,23 @@ tags:
   ## Usage (with ML-Agents)
   The Documentation: https://unity-technologies.github.io/ml-agents/ML-Agents-Toolkit-Documentation/
 
-  We wrote a complete tutorial to learn to train your first agent using ML-Agents and publish it to the Hub:
-  - A *short tutorial* where you teach Huggy the Dog 🐶 to fetch the stick and then play with him directly in your
-  browser: https://huggingface.co/learn/deep-rl-course/unitbonus1/introduction
-  - A *longer tutorial* to understand how works ML-Agents:
-  https://huggingface.co/learn/deep-rl-course/unit5/introduction
-
+  
   ### Resume the training
   ```bash
   mlagents-learn <your_configuration_file_path.yaml> --run-id=<run_id> --resume
   ```
 
-  ### Watch your Agent play
-  You can watch your agent **playing directly in your browser**
-
-  1. If the environment is part of ML-Agents official environments, go to https://huggingface.co/unity
-  2. Step 1: Find your model_id: BiggestQ/ppo-Huggy
-  3. Step 2: Select your *.nn /*.onnx file
-  4. Click on Watch the agent play 👀
+  ### Watch Agent play
+    You can watch the video
+    
+    
+    
+    If you want to play with huggy yourself visit the website: 
+    https://huggingface.co/spaces/ThomasSimonini/Huggy
+    
+    
+  1. Click on the "Find your model" button
+  2. Insert the name "BiggestQ" inside of the username and the model_id: BiggestQ/ppo-Huggy
+  3. Select a *.nn /*.onnx file
+  4. Click on Watch the agent play
   
